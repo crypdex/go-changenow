@@ -42,4 +42,4 @@ Better testing with mocks needs to be written.
 
 ## 🐞 Bugs
 
-If you find an problem with the lib, please submit an issue.
+If you find a problem with the lib, please submit an issue.
