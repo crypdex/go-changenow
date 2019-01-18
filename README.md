@@ -9,6 +9,22 @@ Golang wrapper for the ChangeNOW instant coin exchange. Implements API v1.
 go get github.com/crypdex/go-changenow
 ```
 
+## Usage
+
+```go
+import "github.com/crypdex/go-changenow"
+
+// Initialize the client
+apikey := "gogetone"
+client := changenow.New(apikey)
+
+// Make a request (catch your error)
+amount, _ := client.MinAmount("XZC")
+
+fmt.Println(amount)
+// => 3.37862
+```
+
 This package is currently used in production, but is not yet locked down by version and is subject to change.
 
 ## Implemention Status (v1)
