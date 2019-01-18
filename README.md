@@ -1,7 +1,8 @@
 <img src="http://crypdex.io/img/full-logo.svg" width=300 style="margin-bottom:20px;"/>
 
-# ChangeNOW API in Go
-A Golang wrapper for the ChangeNOW instant coin exchange
+# A Go package for ChangeNOW
+
+Golang wrapper for the ChangeNOW instant coin exchange. Implements API v1.
 
 
 ```bash
